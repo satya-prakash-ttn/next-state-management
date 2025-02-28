@@ -1,9 +1,7 @@
-// src/Redux/reducers/quoteReducer.js
-
 const initialState = {
   quotes: [],
-  loading: true, // Loading state for showing a loader
-  error: null,   // Error state for error handling
+  loading: true, 
+  error: null,   
 };
 
 const quoteReducer = (state = initialState, action) => {
